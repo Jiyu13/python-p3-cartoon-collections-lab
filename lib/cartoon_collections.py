@@ -1,5 +1,7 @@
-def roll_call_dwarves():
-    pass
+def roll_call_dwarves(dwarves):
+    for i in range(len(dwarves)):
+        print(f"{i+1}. {dwarves[i]}")
+
 
 def summon_captain_planet():
     pass

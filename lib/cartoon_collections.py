@@ -12,5 +12,7 @@ def long_planeteer_calls(short_words):
             return True
     return False
 
-def find_the_cheese():
-    pass
+def find_the_cheese(snacks):
+    for snack in snacks:
+        if snack in ["cheddar", "gouda",  "camembert"]:
+            return snack

@@ -6,8 +6,11 @@ def roll_call_dwarves(dwarves):
 def summon_captain_planet(planeteer_calls):
     return [f"{call.capitalize()}!" for call in planeteer_calls]
 
-def long_planeteer_calls():
-    pass
+def long_planeteer_calls(short_words):
+    for i in range(len(short_words)):
+        if len(short_words[i]) > 4:
+            return True
+    return False
 
 def find_the_cheese():
     pass
